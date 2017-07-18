@@ -54,6 +54,10 @@ Binaries/*
 # Builds
 Build/*
 
+# Starter Content and Folders
+*/StarterContent/*
+ignore/*
+
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
 Build/*/**
