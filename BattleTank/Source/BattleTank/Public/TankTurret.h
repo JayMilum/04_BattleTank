@@ -19,7 +19,7 @@ public:
 	void UTankTurret::Rotate(float RelativeSpeed);  // TODO Convert TurretRotate from Barrel Elevate
 
 private:
-	UPROPERTY(EditDefaultsOnly, Category = Setup)
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
 		float MaxRotateDegreesPerSecond = 25;
 
 };
